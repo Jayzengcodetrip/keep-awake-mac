@@ -1,0 +1,26 @@
+# Build products are never source releases.
+/build/
+/dist/
+*.app/
+*.dSYM/
+*.zip
+*.dmg
+*.pkg
+.DS_Store
+
+# Credentials, signing material, local configuration, and private service logs.
+.env
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+notary*.json
+notary*.plist
+*.log
